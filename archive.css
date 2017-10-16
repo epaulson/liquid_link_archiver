@@ -1,0 +1,55 @@
+/* adapted from https://github.com/LeonardoCardoso/Link-Preview under the MIT license. That code is Copyright (c) 2015 Leonardo Cardoso */
+.lp-posted {
+    margin-top: 0px;
+    margin-bottom: 40px;
+    border: 1px #eee solid;
+    padding: 5px;
+    word-wrap: break-word;
+}
+
+.lp-posted-image {
+    padding: 0px;
+    cursor: pointer !important;
+}
+
+.lp-posted-image img {
+    width: 100%
+}
+
+.lp-posted-wrap {
+    padding: 0;
+}
+
+.lp-posted-canonical-url {
+    color: #666;
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.lp-posted-close {
+    cursor: pointer;
+}
+
+.lp-posted-text {
+    padding-bottom: 5px;
+}
+
+.lp-posted-title {
+    font-weight: bold;
+    padding-left: 10px;
+    font-size: 15px;
+    padding-right: 0;
+    word-break: break-word;
+}
+
+.lp-posted-description {
+    font-size: 13px;
+    word-break: break-word;
+    padding-right: 0;
+    padding-left: 10px;
+    margin-top: 5px;
+}
